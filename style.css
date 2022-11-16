@@ -1,0 +1,180 @@
+
+body {
+  min-height: 100vh;
+  display: grid;
+  font-family: consolas;
+  list-style: none;
+}
+
+.mt--30{
+  height: 30px;
+  border-bottom: 1px dotted #f0f1f3;
+
+}
+
+.mt--50{
+  height: 50px;
+  border-bottom: 1px dotted #f0f1f3;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+/* END Container==================================================
+
+===START Icon===========================================*/
+.fa-poo-storm {
+  font-size: 3rem;
+  color:rgb(133, 133, 133);
+}
+
+.fa-bed {
+  font-size: 2rem;
+  color:rgb(133, 133, 133);
+}
+
+.fa-id-card {
+  font-size: 2rem;
+  color:rgb(133, 133, 133);
+}
+.fa-id-card {
+  font-size: 1rem;
+}
+
+/* END Icon==================================================
+
+===START JQUERY===========================================*/
+
+.color-red {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+}
+
+.color-v4-red {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+}
+/* END Jquery==================================================
+
+===START header===========================================*/
+
+
+
+.header__wrap {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+}
+
+/* END header==================================================
+
+===START main===========================================*/
+
+.main__wrap {
+  
+  width: 100%;
+  height: 100%;
+  background-color: #f0f1f3;
+  padding: 20px auto 20px;
+}
+
+/* END mainn====================================================
+ 
+==STArt==grid-columns================================================*/
+
+.grid-columns {
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  
+}
+/* end--grid-columns
+ 
+====start col-item1========================================*/
+
+.col-item1 {
+  background-color:  #f0f1f3;
+}
+
+
+/*END--col-item1 
+ 
+===start col-item2=========================================*/
+
+.col-item2 {
+  width: 100%;
+  background-color: #f0f1f3;
+  text-align: center;
+}
+
+.box1 {
+  font-weight: 900;
+  padding: 30px;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.parts-1 {
+  padding-top: 30px;
+}
+/* end col-item2 
+ 
+--START col-item3=========================================*/
+
+.col-item3 {
+  background-color: #f0f1f3;
+  color: #fff;
+
+}
+
+
+
+
+/* end col-item3
+ 
+====================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ 
+==================*/
+
+
+/* 共通パーツ
+.grid-rows {
+  display: grid;
+  height: 600px;
+  grid-template-rows: 50px auto 50px;
+}
+
+.rows-item1 {
+  background-color: lime;
+}
+
+.rows-item2 {
+  background-color: yellow;
+}
+
+.rows-item3 {
+  background-color: rgb(7, 0, 198);
+  color: #fff;
+}
+====================================================*/
